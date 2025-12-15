@@ -4,7 +4,7 @@ export default function Navbar() {
   const [open, setOpen] = useState(false)
 
   return (
-    <nav className="fixed top-0 w-full bg-black/40 backdrop-blur border-b border-white/10 z-50">
+    <nav className="fixed top-0 w-full bg-black/40 backdrop-blur border-b border-white/10 z-[9999]">
       <div className="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
         
         <h1 className="font-bold text-white">
