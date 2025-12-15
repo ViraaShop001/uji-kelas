@@ -5,8 +5,11 @@ export default function Hero() {
       className="relative min-h-screen flex items-center justify-center overflow-hidden scroll-mt-24"
     >
       {/* glow background */}
-      <div className="absolute -top-40 left-1/2 -translate-x-1/2 w-[600px] h-[600px] bg-astro-primary/30 blur-[120px]" />
-
+      <div className="absolute -top-40 left-1/2 -translate-x-1/2
+                w-[600px] h-[600px]
+                bg-astro-primary/30 blur-[120px]
+                pointer-events-none -z-10" />
+      
       <div className="relative z-10 mt-16 text-center px-6">
         <h1 className="text-6xl md:text-7xl font-black tracking-tight bg-gradient-to-r from-white to-astro-glow bg-clip-text text-transparent">
           ASTROGENIX
