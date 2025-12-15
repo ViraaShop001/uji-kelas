@@ -10,6 +10,12 @@ html {
 /* global body style */
 body {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
-  background-color: #020617; /* slate-950 */
+  background: linear-gradient(
+    180deg,
+    #1e1b4b 0%,
+    #020617 50%,
+    #000000 100%
+  );
   color: white;
+  overflow-x: hidden;
 }
