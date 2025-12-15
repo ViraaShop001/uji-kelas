@@ -8,7 +8,7 @@ import Footer from "./components/Footer"
 
 export default function App() {
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen pt-20">
       <Navbar />
       <Hero />
       <StatCounter />
